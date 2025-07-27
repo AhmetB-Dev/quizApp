@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+/* layout */
+
+h1 {
+    background-color: #27355C;
+    color: white;
+    padding: 8px;
+    margin: 0;
+}
+
+.header-bottom {
+    background-color: #AEAEAF;
+    height: 16px;
+}
+
+/* header */
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #FEFAEF;
+    padding: 4pc;
+}
+
+.quiz-section {
+    color: black;
+    background-color: white;
+}
+
+.quiz-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1.5pc;
+
+    background-image: url('../assets/brainbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quiz-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 5pc;
+    padding-bottom: 8pc;
+
+}
+
+#quiz-container h2 {
+    text-align: center;
+}
+
+#quiz-container p {
+    text-align: center;
+}
+
+#start-button button {
+    border-radius: 7px;
+    background-color: #FC4F14;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.app-container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.categories img {
+    width: 5pc;
+    padding-bottom: 2pc;
+}
+
+.categories {
+    background-color: #27355C;
+    padding: 16px;
+}
+
+#category-change {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#category-change a {
+    margin: 1pc;
+}
+
+.catogories h2 {}
+
+/* FOOTER */
+
+footer {
+    background-color: #27355C;
+    padding: 1pc;
+}
